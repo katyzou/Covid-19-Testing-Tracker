@@ -1,0 +1,25 @@
+{
+  "name": "Covid-19-Testing-Tracker",
+  "version": "1.0.0",
+  "description": "hello world",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katyzou/Covid-19-Testing-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "PRIVATE",
+  "scripts": {
+    "venv": "cd server && source venv/bin/activate && cd ../",
+    "postinstall": "concurrently \"npm:client-install\" \"npm:server-install\"",
+    "start": "concurrently \"npm:start-server\" \"npm:start-client\"",
+    "client-install": "cd client && npm install",
+    "server-install": "./server/venv/bin/pip3 install -r ./server/requirements.txt",
+    "start-server": "FLASK_APP=./server/main.py FLASK_ENV=development ./server/venv/bin/python3 -m flask run --host=0.0.0.0",
+    "start-client": "cd client && npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
