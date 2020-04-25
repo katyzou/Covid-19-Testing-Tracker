@@ -4,6 +4,13 @@
 
 Project level commands
 
+First set up a venv in server
+
+```
+cd server
+python3 -m venv ./venv
+```
+
 This will install all dependencies in server and client
 
 ```
