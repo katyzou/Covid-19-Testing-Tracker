@@ -5,12 +5,13 @@
 Project level commands
 
 This will install all dependencies in server and client
+
 ```
 npm install
 ```
 
-
 This will start the server and client up for development
+
 ```
 npm start
 ```
@@ -23,15 +24,19 @@ Server: `http://localhost:5000/`
 `main.py` is the main file
 
 ### Activate Venv
+
 ```
 cd server
 source venv/bin/activate
 ```
 
 ### Deactivate Venv (rarely needed)
+
 ```
 deactivate
 ```
+
+Docker machine on GCP: https://docs.docker.com/machine/drivers/gce/
 
 ## Cient
 
