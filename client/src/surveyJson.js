@@ -11,15 +11,15 @@ const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "item1",
+        "value": "coughfever",
         "text": "Are you experiencing coughing and/or fevers?"
        },
        {
-        "value": "item2",
+        "value": "healthrisks",
         "text": "Are you predisposed to health risks?"
        },
        {
-        "value": "item3",
+        "value": "65older",
         "text": "Are you over the age of 65 or more?"
        }
       ]
@@ -31,15 +31,15 @@ const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "item1",
+        "value": "SANMATEO",
         "text": "San Mateo"
        },
        {
-        "value": "item2",
+        "value": "SAN",
         "text": "San Diego"
        },
        {
-        "value": "item3",
+        "value": "LAS",
         "text": "Las Vegas"
        }
       ]

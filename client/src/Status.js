@@ -41,7 +41,15 @@ function Status() {
       {/* <h1>
         Check your result status after testing 
       </h1> */}
-      <IntakeSurvey surveyJson={json} />
+      <IntakeSurvey surveyJson={json} onComplete={(result) => {
+        axios.post('http://localhost:5000/status', result)
+          .then(function (response) {
+            console.log(response);
+          })
+          .catch(function (error) {
+            console.log(error);
+          });
+      }} />
     </div>
   );
 }
