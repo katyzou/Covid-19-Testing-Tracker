@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 #connect to mongo
-client = MongoClient("mongodb+srv://katyzou:abcde123@cluster0-mrgpe.gcp.mongodb.net/test?retryWrites=true&w=majority")
+client = MongoClient("")
 
 
 @app.route('/')
