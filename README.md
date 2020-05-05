@@ -1,4 +1,7 @@
 # Covid-19-Testing-Tracker
+https://devpost.com/software/covid-19-testing-scheduler-and-status-checker
+
+MLH Student Hackathon submission: Covid-19 testing appointment scheduler and result status checker. 
 
 ## Get Started
 
